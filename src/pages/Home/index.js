@@ -11,11 +11,13 @@ import HomeIcon from '../../assets/home.png';
 import Arrow from '../../assets/vector/arrow.png';
 
 
-const Home = ({ }) => {
-    const navigation = useNavigate();
+const Home = () => {
+    const navigation = useNavigation();
     function handleNavigate() {
-        navigation.navigate('recommendations');
+        navigation.navigate('Recommendations');
+        navigation.navigate('Login');
     }
+    
 
     return (
         <Container>
