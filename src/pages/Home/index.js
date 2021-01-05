@@ -1,14 +1,20 @@
 import React from 'react';
-import {Image} from 'react-native'
+import { useNavigation } from '@react-navigation/native'
+
+import { Image } from 'react-native'
+
+
 
 import { Container, Button, ButtonText, Title, Description, Icon } from './styles';
 
 import HomeIcon from '../../assets/home.png';
 import Arrow from '../../assets/vector/arrow.png';
 
-const Home = ({ navigation }) => {
+
+const Home = ({ }) => {
+    const navigation = useNavigate();
     function handleNavigate() {
-        navigation.navigate('/recommendations');
+        navigation.navigate('recommendations');
     }
 
     return (
