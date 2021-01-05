@@ -1,0 +1,1 @@
+{"ast":null,"code":"import colors from \"./colors\";\nexport { colors };","map":{"version":3,"sources":["C:/Users/Guilherme/Desktop/Mobile/src/styles/index.js"],"names":["colors"],"mappings":"AAAA,OAAOA,MAAP;AAEA,SAASA,MAAT","sourcesContent":["import colors from './colors';\r\n\r\nexport { colors };\r\n"]},"metadata":{},"sourceType":"module"}

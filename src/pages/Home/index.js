@@ -18,8 +18,8 @@ const Home = ({ navigation }) => {
                 Olá!
             </Title>
             <Description>
-                Nossas boas vindas a você, amante de filmes. Com o MyMovii você 
-                poderá descobrir novos filmes e adiciona-los a sua lista de 
+                Nossas boas vindas a você, amante<br /> de filmes. Com o MyMovii você<br />
+                poderá descobrir novos filmes e <br />adiciona-los a sua lista de 
                 favoritos.
             </Description>
             <Button onPress={handleNavigate}>
