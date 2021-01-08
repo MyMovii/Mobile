@@ -14,7 +14,7 @@ import Arrow from '../../assets/vector/arrow.png';
 const Home = () => {
     const navigation = useNavigation();
     function handleNavigate() {
-        navigation.navigate('/pages')
+        navigation.navigate('')
         navigation.navigate('Recommendations');
         navigation.navigate('Login');
     }
