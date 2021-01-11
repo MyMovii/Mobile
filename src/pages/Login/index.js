@@ -11,7 +11,9 @@ const Login = ({ navigation }) => {
   return (
     <Container>
       <TouchableOpacity onPress={handleNavigate}>
-        <Text>Login</Text>
+        <Text>
+          Login
+          </Text>
       </TouchableOpacity>
     </Container>
   );
