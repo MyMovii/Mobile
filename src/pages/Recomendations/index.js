@@ -3,6 +3,7 @@ import { StatusBar } from 'expo-status-bar'
 import { SvgXml } from "react-native-svg";
 import { Animated } from 'react-native';
 
+
 import { View, TouchableOpacity, Text } from 'react-native'
 import styles from './styles'
 import Carousel from './components/carousel/carousel'
