@@ -2,20 +2,17 @@ import React from 'react';
 import { useNavigation } from '@react-navigation/native'
 
 import { Image } from 'react-native'
-
-
-
 import { Container, Button, ButtonText, Title, Description, Icon } from './styles';
 
 import HomeIcon from '../../assets/home.png';
 import Arrow from '../../assets/vector/arrow.png';
 
 
+
 const Home = () => {
     const navigation = useNavigation();
     function handleNavigate() {
         navigation.navigate('');
-        navigation.navigate('')
         navigation.navigate('Login');
     }
     
